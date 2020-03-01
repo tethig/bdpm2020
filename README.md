@@ -8,8 +8,16 @@ jupyter nbconvert index.ipynb --to slides --post serve \
 ```
 
 ## Conversion
+Setup:
 ```
-jupyter nbconvert index.ipynb --to slides --reveal-prefix=../reveal.js \
+git clone https://github.com/hakimel/reveal.js.git
+cd reveal.js
+git checkout 3.5.0
+cd ..
+```
+Conversion:
+```
+jupyter nbconvert index.ipynb --to slides --reveal-prefix reveal.js \
 --SlidesExporter.reveal_theme=solarized --SlidesExporter.reveal_scroll=True --SlidesExporter.reveal_transition=none
 mv index.slides.html index.html
 ```
