@@ -1,5 +1,6 @@
 # Guidance
-[Excellent article](https://medium.com/learning-machine-learning/present-your-data-science-projects-with-jupyter-slides-75f20735eb0f).
+* [Excellent article](https://medium.com/learning-machine-learning/present-your-data-science-projects-with-jupyter-slides-75f20735eb0f).
+* [Guidance on nbconvert](https://nbconvert.readthedocs.io/en/latest/usage.html)
 
 ## Dynamic Rendering
 ```
